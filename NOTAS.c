@@ -19,17 +19,17 @@ void main() {
 		 codigo2='F';
 		printf("Tu nota es un %c%c SUFICIENTE. \n", codigo1,codigo2);
 	}
-	else if (nota>5.5&&nota<6.5) {
+	else if (nota>=5.5&&nota<6.5) {
 
 		codigo1 = 'B';
 		printf("Tu nota es un %c BIEN. \n", codigo1);
 	}
-	else if (nota>6.5 && nota<8.5) {
+	else if (nota>=6.5 && nota<8.5) {
 
 		codigo1 = 'N';
 		printf("Tu nota es un %c NOTABLE. \n", codigo1);
 	}
-	else if (nota>8.5 && nota<9.5) {
+	else if (nota>=8.5 && nota<9.5) {
 
 		codigo1 ='S';
 		codigo2='B';
