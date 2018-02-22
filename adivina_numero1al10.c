@@ -1,3 +1,4 @@
+//Desarrollador:Paula Arellano
 #include <stdio.h>
 
 void main() {
@@ -9,16 +10,16 @@ void main() {
 	printf("Estoy pensando en un numero del 0 al 10...\n Adivinalo: \n");
 	scanf_s("%d", &adivina);
 	if (adivina == numero)
-		printf("¡Enhorabuena! Has acertado.\n");
+		printf("Â¡Enhorabuena! Has acertado.\n");
 	else if (adivina < numero) {
 		if (adivina == numero - 1 || adivina == numero - 2)
-			printf("Casi...¡Te has quedado un poco corto!\n");
+			printf("Casi...Â¡Te has quedado un poco corto!\n");
 		else
 			printf("Has escogido un numero mucho mas bajo... Otra vez sera.\n");
 		}
 	else 
 		if (adivina == numero + 1 || adivina == numero + 2)
-			printf("Casi...¡Te has pasado!\n");
+			printf("Casi...Â¡Te has pasado!\n");
 		else
 			printf("Has escogido un numero mucho mas alto...Otra vez sera.\n");
 
