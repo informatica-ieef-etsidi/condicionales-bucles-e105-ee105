@@ -1,7 +1,8 @@
+//Alejandro Casanova
 #include <stdio.h>
 #include <stdlib.h>
 
-//El programa reconoce si un número es par o impar
+//El programa reconoce si un nÃºmero es par o impar
 
 void main() {
 	int numero;
@@ -15,7 +16,7 @@ void main() {
 		printf("El numero es par.\n");
 	}
 	else {
-		printf("El número es impar.\n");
+		printf("El nÃºmero es impar.\n");
 	}
 	system("PAUSE");
 
