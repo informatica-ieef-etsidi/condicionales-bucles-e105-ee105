@@ -74,7 +74,12 @@ void main() {
 		printf("Has seleccionado raiz cuadrada.\n");
 		printf("Introduce un numero numero.\n");
 		scanf_s("%d", &n1);
-		printf("La raiz cuadrada de %d es %.3f\n", n1, sqrt(n1));
+		if (n1 < 0) {
+			printf("El valor es un numero imaginario, ese calculo estara disponible en siguientes actualizaciones.\n");
+		}
+		else {
+			printf("La raiz cuadrada de %d es %.3f\n", n1, sqrt(n1));
+		}
 
 		break;
 
