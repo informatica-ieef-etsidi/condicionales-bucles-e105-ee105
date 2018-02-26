@@ -1,3 +1,4 @@
+//Desarrollador: Paula Arellano
 #include<stdio.h>
 void main() {
 	float resistencia1, resistencia2, resistencia3, resistenciaE, condensador1, condensador2, condensador3, condensadorE;
