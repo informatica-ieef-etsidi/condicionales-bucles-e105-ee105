@@ -1,7 +1,7 @@
 //Desarrollador: Paula Arellano
 #include<stdio.h>
 void main() {
-	float resistencia1, resistencia2, resistencia3, resistenciaE, condensador1, condensador2, condensador3, condensadorE;
+	float resistencia1, resistencia2, resistencia3, condensador1, condensador2, condensador3;
 	char opcion, colocacion;
 
 	printf("Pulse R para calcular el valor de la RESISTENCIA equivalente\n");
