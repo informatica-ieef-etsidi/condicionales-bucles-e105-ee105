@@ -1,5 +1,5 @@
-/*Se pide realizar un programa que calcule el m·ximo y el mÌnimo de dos datos tecleados por el usuario y que deben estar en el rango [0.0 100.0]. 
-Si alguno de los datos introducidos estuviera fuera del rango se imprimir· un aviso de ERROR.*/
+/*Se pide realizar un programa que calcule el m√°ximo y el m√≠nimo de dos datos tecleados por el usuario y que deben estar en el rango [0.0 100.0]. 
+Si alguno de los datos introducidos estuviera fuera del rango se imprimir√° un aviso de ERROR.*/
 
 #include <stdio.h>
 
@@ -15,7 +15,7 @@ int main(){
 		else if(m>n){
 			printf("%.1f es un maximo y %.1f es un minimo", m, n);
 		}
-		else if(m=n){
+		else if(m==n){
 			printf("%.1f es igual a %.1f y por tanto no hay ni maximos ni minimos", m, n);
 		}
 	}
