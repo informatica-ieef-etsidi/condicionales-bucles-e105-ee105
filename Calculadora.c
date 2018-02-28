@@ -1,3 +1,8 @@
+//Desarrollador: Marcos Velázquez Ruiz
+//Programa basico para realizar operaciones elementales.
+
+
+
 #include <stdio.h>
 #include <math.h>
 
