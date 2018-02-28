@@ -2,10 +2,10 @@
 //programa que calcula un numero aleatorio en un intervalo dado y luego ofrece tres niveles para que intentes adivinarlo
 
 #include<stdio.h>
-
+#define i=1
 void main() {
 
-	int i=1; numero/*numero a adivinar*/, num1, num2, opt, j;//opt y j son variables usadas para elejir el nivel y para llevar la cuenta de los intentos respectivamente
+	int  numero/*numero a adivinar*/, num1, num2, opt, j;//opt y j son variables usadas para elejir el nivel y para llevar la cuenta de los intentos respectivamente
 
 	do {
 		j = 0;
