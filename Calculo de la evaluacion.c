@@ -1,8 +1,14 @@
+//Programa para calcular la nota de la evaluacion Miguel Jiménez Sarria
+
+
 #include <stdio.h>
-float nota;
-char codigo;
+
 
 void main() {
+	
+	
+	float nota;
+	char codigo;
 
 	printf("Introduce tu nota\n");
 
@@ -40,7 +46,7 @@ void main() {
 		system("PAUSE");
 
 	}
-
+6
 	if ((nota >= 7) && (nota<8.5)) {
 
 
@@ -90,7 +96,7 @@ void main() {
 
 
 
-	if (nota <= 0) {
+	if (nota < 0) {
 
 
 		codigo = 'E';
