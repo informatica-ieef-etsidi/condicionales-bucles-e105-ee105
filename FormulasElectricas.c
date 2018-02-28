@@ -1,6 +1,6 @@
 
 //Desarrollador: Daniel Iglesias
-//Cálculo de las Formulas Electricas de: F, E, Ep y V.
+//CÃ¡lculo de las Formulas Electricas de: F, E, Ep y V.
 
 #include<stdio.h>
 #define K 9000000000
@@ -101,37 +101,3 @@ void main() {
 
 
 
-/*
-#include<stdio.h>
-
-void main() {
-	int n1 = 4, n2 = 5;
-	char r, R, S, s;
-	char opcion;
-
-	printf("MENU DE MI CALCULADORA\n");
-	printf("Elige S si vas a sumar dos numeros\n");
-	printf("Elige R si vas a sumar dos sumeros\n");//solo valdra con una sola variable
-
-	scanf_s("%c", &opcion, 1);
-
-
-	switch (opcion)
-	{
-	case 'S':
-	case 's':
-		printf("Suma de %d y %d = %d\n", n1, n2, n1 + n2);
-		break;
-	case 'r':
-	case 'R':
-		printf("Resta de %d y %d = %d\n", n1, n2, n1 - n2);
-		break;
-	default:
-		printf("Opcion no valida\n");
-	}
-
-
-	system("pause");
-
-}
-*/
