@@ -3,11 +3,9 @@
 
 #include<stdio.h>
 
-i = 1;
-
 void main() {
 
-	int numero/*numero a adivinar*/, num1, num2, opt, j;//opt y j son variables usadas para elejir el nivel y para llevar la cuenta de los intentos respectivamente
+	int i=1; numero/*numero a adivinar*/, num1, num2, opt, j;//opt y j son variables usadas para elejir el nivel y para llevar la cuenta de los intentos respectivamente
 
 	do {
 		j = 0;
