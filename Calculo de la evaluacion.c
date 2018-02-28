@@ -46,7 +46,7 @@ void main() {
 		system("PAUSE");
 
 	}
-6
+
 	if ((nota >= 7) && (nota<8.5)) {
 
 
