@@ -1,4 +1,5 @@
 //Desarrollador: Paula Arellano
+//Permite conocer la resistencia o condensador equivalente, tanto si están colocadas en serie o en paralelo.
 #include<stdio.h>
 void main() {
 	float resistencia1, resistencia2, resistencia3, condensador1, condensador2, condensador3;
