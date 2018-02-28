@@ -1,4 +1,5 @@
 //Desarrollador:Paula Arellano
+//Juego para adivinar un número del 1 al 10 con un intento
 #include <stdio.h>
 
 void main() {
