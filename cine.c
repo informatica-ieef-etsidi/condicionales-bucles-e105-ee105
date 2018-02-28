@@ -1,10 +1,10 @@
 //Desarrollador Eduardo Albelda Reliegos
+/*A continuacion se pedira la edad del comprador de la entrada para darle a elegir entre las peliculas que puede ver, es decir, que
+no podra ver una pelicula para la cual no sea apto*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-
-/*A continuacion se pedira la edad del comprador de la entrada para darle a elegir entre las peliculas que puede ver, es decir, que
-no podra ver una pelicula para la cual no sea apto*/
 
 void main() {
 	int edad;
