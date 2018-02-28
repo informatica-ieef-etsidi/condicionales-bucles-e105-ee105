@@ -1,3 +1,6 @@
+//Alejandro Casanova
+//Un juego para dos personas de piedra, papel o tijeras
+
 #include <stdio.h>
 
 void main() {
