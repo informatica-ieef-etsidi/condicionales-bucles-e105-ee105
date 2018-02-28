@@ -1,5 +1,6 @@
-//Piedra papel o tijeras por Ismael Gómez Pacheco
-//Programa para jugar 2 personas al piedra papel o tijeras con una limpieza de pantalla para que el segundo jugador no pueda ver la elección del primero
+//Piedra papel o tijeras por Ismael GÃ³mez Pacheco
+/*Programa para jugar 2 personas al piedra papel o tijeras con una limpieza de pantalla para que el segundo jugador
+no pueda ver la elecciÃ³n del primero*/
 
 #include <stdio.h>
 
