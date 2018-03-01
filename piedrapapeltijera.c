@@ -1,4 +1,4 @@
-#include <stdio.h>
+//#include <stdio.h>
 void main() {
 	int opcion1, opcion2;
 	printf("JUGADOR 1\n");
@@ -15,22 +15,22 @@ void main() {
 	if (opcion1 == opcion2) {
 		printf("empate\n");
 	}
-	else if (opcion1 == 1 & opcion2 == 2) {
+	else if (opcion1 == 1 && opcion2 == 2) {//antes pononia else if (opcion1 == 1 & opcion2 == 2) {
 		printf("gana jugador 2\n");
 	}
-	else if (opcion1 == 2 & opcion2 == 1) {
+	else if (opcion1 == 2 && opcion2 == 1) {
 		printf("gana jugador 1\n");
 	}
-	else if (opcion1 == 1 & opcion2 == 3) {
+	else if (opcion1 == 1 && opcion2 == 3) {
 		printf("gana jugador 1\n");
 	}
-	else if (opcion1 == 3 & opcion2 == 1) {
+	else if (opcion1 == 3 && opcion2 == 1) {
 		printf("gana jugador 2\n");
 	}
-	else if (opcion1 == 2 & opcion2 == 3) {
+	else if (opcion1 == 2 && opcion2 == 3) {
 		printf("gana jugador 2\n");
 	}
-	else if (opcion1 == 3 & opcion2 == 2) {
+	else if (opcion1 == 3 && opcion2 == 2) {
 		printf("gana jugador 1\n");
 	}
 	else { printf("parametros no validos\n");
