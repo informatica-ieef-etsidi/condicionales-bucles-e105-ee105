@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main() {
+	int n,resultado;
+	printf("Introduce un numero :\n");
+	scanf_s("%d",&n);
+	if (n < 0) {
+		resultado = 0 - n;
+	}
+	printf("El valor absoluto de n es %d.\n",resultado);
+	system("pause");
+
+}
