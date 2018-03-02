@@ -16,15 +16,12 @@ void main() {
 		if (a < 0) {
 			printf("ERROR\n");
 		}
-		else if (a % 400 == 0)
+		else if ((a % 400 == 0) || (a % 4 == 0 && a % 100 !=0)) {
 			printf("Este a%co es bisiesto.\nFebrero tiene 29 dias.\n", 164);
-		else if (a % 4 == 0 && a % 100 == 0)
+		}
+		else {
 			printf("Este a%co no es bisiesto.\nFebrero tiene 28 dias.\n", 164);
-		else if (a % 4 == 0)
-			printf("Este a%co es bisiesto.\nFebrero tiene 29 dias.\n", 164);
-		else
-			printf("Este a%co no es bisiesto.\nFebrero tiene 28 dias.\n", 164);
-
+		}
 		printf("\n");
 	}
 	system("pause");
