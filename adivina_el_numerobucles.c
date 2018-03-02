@@ -17,7 +17,7 @@ void main() {
 				scanf_s("%d", &adivina);
 				if (adivina == numero) {
 					printf("¡Enhorabuena! Has acertado.\n");
-				
+				break;//Sin el break, aunque se acertara, seguiría ejecutando el resto de sentencias.
 				}
 
 				else if (adivina < numero) {
