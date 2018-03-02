@@ -1,7 +1,5 @@
-// Desarrollador: Marcos Vel·zquez Ruiz
+// Desarrollador: Marcos Vel√°zquez Ruiz
 // Este programa calcula el sumatorio desde 1 hasta n 
-
-
 
 #include <stdio.h>
 void main() {
@@ -22,7 +20,7 @@ void main() {
 
 	for (i; i <= n; i++)
 			suma = suma + i;
-		printf("Sumatorio = %d\n", suma);
+	printf("Sumatorio = %d\n", suma);
 	
 	system("pause");
 }
