@@ -1,3 +1,4 @@
+//Desarrollador: Sergio Corredor
 #include <stdio.h>
 
 void main() {
