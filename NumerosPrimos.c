@@ -1,3 +1,6 @@
+/* Diego Martín de Paz
+ Este codigo da como respuesta todos los numeros primos desde un primer valor introducido hasta otro valor */
+
 #include <stdio.h>
 
 void main() {
