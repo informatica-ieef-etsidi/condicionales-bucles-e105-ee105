@@ -1,3 +1,7 @@
+/* Diego Martín de Paz
+Este programa calcula los multiplos de un numero 'x', desde un numero 'a' hasta un numero 'b'.
+En caso de querer hacer una multiplicacion normal, se pueden introducir dos numeros  "a = b"*/
+
 #include <stdio.h>
 void main() {
 	int inicio = 0;
