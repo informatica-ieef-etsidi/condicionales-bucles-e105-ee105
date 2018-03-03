@@ -7,6 +7,8 @@ void main() {
 	
 	printf("Introduce un caracter ASCII:");
 	scanf_s("%c", &caracter);
+	//if (caracter > 90) 
+		//caracter = caracter - 32; Con esto se podrían ahorrar unas expresiones tan largas dentro de los ifs
 	
 	if ((caracter >= 65 && caracter <= 90) || (caracter >= 97 && caracter <= 122))
 		
