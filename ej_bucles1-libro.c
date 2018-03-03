@@ -1,3 +1,7 @@
+//Paula Arellano
+/*Enunciado: Realizar un programa que le pida un numero entero n al usuario, mostrandole las tablas de sumar y de multiplicar de dicho
+numero, asi como su cuadrado y su cubo. Una vez mostrado todo esto, volverá a pedir otro numero al usuario, y asi indefinidamente hasta 
+que se pulse ctrl+c o se cierre la aplicacion*/
 #include<stdio.h>
 void main() {
 	int i, n,suma, multiplicacion, cuadrado, cubo;
