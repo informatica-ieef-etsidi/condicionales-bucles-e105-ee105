@@ -5,8 +5,12 @@ void main() {
 	
 	int numero;
 	
-	printf("Introduce un numero entero:");
+	printf("Introduce un numero entero entre el 0 y el 6:");
 	scanf_s("%d", &numero);
+	while (numero < 0 || numero>6) { //bucle añadido para que el programa pida un un numero nuevo hasta que este pertenezca al intervalo [0,6]
+		printf("No es un numero entre el 0 y el 6,vuelva a introducir un numero\n");
+		scanf_s("%d", &numero);
+	}
 	
 	if (numero == 0)
 		printf("El dia de la semana es domingo.\n");
@@ -26,7 +30,7 @@ void main() {
 	else if (numero == 5)
 		printf("El dia de la semana es viernes.\n");
 	
-	else if (numero == 6)
+	else //Cambio de else-if a else gracias al bucle
 		printf("El dia de la semana es sabado.\n");
 	
 	system("pause");
