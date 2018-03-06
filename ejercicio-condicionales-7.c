@@ -1,5 +1,5 @@
-/*Realice un programa en el que el usuario pueda seleccionar la operación matemática a realizar con dos números
- que introduce por teclado (suma, resta, multiplicación, división, potencia)*/
+/*Realice un programa en el que el usuario pueda seleccionar la operaciÃ³n matemÃ¡tica a realizar con dos nÃºmeros
+ que introduce por teclado (suma, resta, multiplicaciÃ³n, divisiÃ³n, potencia)*/
  
 #include <stdio.h>
 #include <math.h>
