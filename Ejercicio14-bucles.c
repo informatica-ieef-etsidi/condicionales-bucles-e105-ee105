@@ -14,25 +14,25 @@ void main() {
 		if (n == 0) {
 			printf("ERROR");
 		}
-		if (n == 1) {
+		else if (n == 1) {
 			printf("El numero corresponde a lunes");
 		}
-		if (n == 2) {
+		else if (n == 2) {
 			printf("El numero corresponde a martes");
 		}
-		if (n == 3) {
+		else if (n == 3) {
 			printf("El numero corresponde a miercoles");
 		}
-		if (n == 4) {
+		else if (n == 4) {
 			printf("El numero corresponde a jueves");
 		}
-		if (n == 5) {
+		else if (n == 5) {
 			printf("El numero corresponde a viernes");
 		}
-		if (n == 6) {
+		else if (n == 6) {
 			printf("El numero corresponde a sabado");
 		}
-		if (n == 7) {
+		else  {
 			printf("El numero corresponde a domingo");
 		}
 
