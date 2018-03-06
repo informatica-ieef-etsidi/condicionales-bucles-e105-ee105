@@ -1,8 +1,8 @@
-//Ana Dueñas
+//Ana DueÃ±as
 //Ejercicio14 de bucles ya subido pero con todo el enunciado:
 //Hecho con switch
-//El programa se termina cuando se introduce un 0, mientras sigue pediendo números o dando error. 
-
+//El programa se termina cuando se introduce un 0, mientras sigue pediendo nÃºmeros o dando error. 
+//             Es una variacion del ejercicio 4  de sentencias condicionales subido.
 
 #include <stdio.h>
 
