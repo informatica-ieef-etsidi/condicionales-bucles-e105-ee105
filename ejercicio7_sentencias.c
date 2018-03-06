@@ -37,7 +37,13 @@ void main() {
 		case'd':
 		printf("Introduzca los numeros que quiere dividir: \n");
 		scanf_s("%f %f", &x, &y);
-		printf("La division de %.2f y tanto %.2f es: %.2f\n", x, y, x / y);
+		
+		if ( y == 0) {
+			printf("No es posible dividir entre 0.\n");
+		}
+		else {
+			printf("La division de %.2f y tanto %.2f es: %.2f\n", x, y, x / y);
+		}
 		break;
 	case'P':
 		case'p':
