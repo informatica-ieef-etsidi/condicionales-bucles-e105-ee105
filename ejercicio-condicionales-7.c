@@ -37,11 +37,12 @@ int main(){
 		case 4:{
 			printf("Introduzca dos numeros para dividir el primero entre el segundo:\n");
 			scanf("%f \n%f", &a, &b);
-			operacion=a/b;
+			
 			if (b == 0){
 				printf("No es posible dividir entre 0.\n");
 			}
 			else {
+				operacion=a/b;
 				printf("La division de %.4f entre %.4f es %.4f", a, b, operacion);
 			}
 			break;
