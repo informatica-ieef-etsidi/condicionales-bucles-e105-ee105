@@ -1,4 +1,7 @@
-//Desarrollador: Sergio Corredor
+/*Desarrollador: Sergio Corredor
+Ejercicio 9:
+Escriba un programa en el que el usuario introduzca una letra y el programa imprima el nombre de un animal que comience con dicha letra. 
+Nota: considere 3 o 4 letras. (Utilícese switch-case).*/
 #include <stdio.h>
 
 void main() {
