@@ -1,4 +1,6 @@
-//Desarrollador: Sergio Corredor
+/*Desarrollador: Sergio Corredor
+Ejercicio 1:
+Realice un programa que solicite tres números enteros e imprima el mayor de ellos.*/
 #include <stdio.h>
 
 void main() {
