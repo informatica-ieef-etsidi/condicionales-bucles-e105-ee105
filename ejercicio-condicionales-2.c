@@ -1,4 +1,6 @@
-//Desarrollador: Sergio Corredor
+/*Desarrollador: Sergio Corredor
+Ejercicio 2:
+Realice un programa que solicite al usuario un número. Indique si este número es o no divisible por 2.*/
 #include <stdio.h>
 
 void main() {
