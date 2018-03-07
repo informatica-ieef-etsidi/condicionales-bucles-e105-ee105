@@ -1,4 +1,6 @@
-//Desarrollador: Sergio Corredor
+/*Desarrollador: Sergio Corredor
+Ejercicio 5:
+Elaborar un programa que lea una letra y determine si es vocal, consonante o cualquier otro carácter de la tabla de Códigos ASCII.*/
 #include <stdio.h>
 
 void main() {
