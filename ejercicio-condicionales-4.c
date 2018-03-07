@@ -1,4 +1,7 @@
-//Desarrollador: Sergio Corredor
+/*Desarrollador: Sergio Corredor
+Ejercicio 4:
+Leer un valor entero. Suponer que el número es un día de la semana. Suponer que 0 corresponde a Domingo y así sucesivamente. 
+Imprimir el nombre del día.*/
 #include <stdio.h>
 
 void main() {
