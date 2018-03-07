@@ -1,4 +1,6 @@
-//Desarrollador: Sergio Corredor
+/*Desarrollador: Sergio Corredor
+Ejercicio 3:
+Dados dos números enteros tecleados por el usuario, comprobar si el primero es divisible por el segundo.*/ 
 #include <stdio.h>
 
 void main() {
